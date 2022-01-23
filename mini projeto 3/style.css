@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-slide {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+  height: 50vh;
+  background: #000;
+  margin: 20vh auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px #000;
+}
+
+.container-slide .action-button {
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  color:#00000000;
+  user-select: none;
+}
+
+.container-slide .action-button.one:hover {
+  border-radius: 15px 0 0 15px;
+}
+
+.container-slide .action-button:hover {
+  color: white;
+  background: #00000080;
+  border-radius: 0 15px 15px 0;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.container-slide .container-items {
+  position: absolute;
+  display: flex;
+  width: 50vw;
+  height: 50vh;
+  border-radius: 15px;
+  overflow-x: hidden;
+}
+
+.container-slide .container-items .item {
+  width: 50vw;
+  height: 50vh;
+  transition: all 0.5s ease-in-out;
+}
+
+.container-slide .container-items .item:first-child {
+  margin-left: -100%;
+}
+
+.container-slide .container-items .item img {
+  width: 50vw;
+  height: 50vh;
+  border-radius: 15px;
+}
