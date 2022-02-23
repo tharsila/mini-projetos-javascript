@@ -27,9 +27,14 @@ body header h1 {
 }
 body main {
   background: #2F3034;
-  max-width: 550px;
+  width: 600px;
   border-radius: 10px;
   margin: 0 20px;
+}
+@media (max-width: 600px) {
+  body main {
+    width: 90%;
+  }
 }
 body main .content {
   width: 100%;
