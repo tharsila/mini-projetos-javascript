@@ -1,3 +1,5 @@
+@import 'variaveis-e-mixins';
+
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@400;700&display=swap');
 
 * {
@@ -12,7 +14,7 @@ body {
   justify-content: center;
   flex-direction: column;
   min-height: 100vh;
-  background: #212226;
+  background: $background-body;
 
   header {
     margin-bottom: 2rem;
@@ -20,7 +22,7 @@ body {
       text-align: center;
       font-family: 'Alfa Slab One', cursive;
       font-size: 4rem;
-      background: linear-gradient(147deg, #FF2525 0%, #FFE53B 74%); 
+      background: $primary-font-color; 
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent; 
@@ -28,10 +30,14 @@ body {
   }
   
   main {
-    background: #2F3034;
-    max-width: 550px;
+    background: $background-color-card;
+    width: 600px;
     border-radius: 10px;
     margin: 0 20px;
+    
+    @include mobile {
+      width: 90%;
+    }
 
     .content {
       width: 100%;
@@ -46,7 +52,7 @@ body {
       }
 
       button {
-        background: linear-gradient(147deg, #FF2525 0%, #FFE53B 74%); 
+        background: $primary-font-color;
         height: 45px;
         padding: 10px;
         font-size: 18px;
