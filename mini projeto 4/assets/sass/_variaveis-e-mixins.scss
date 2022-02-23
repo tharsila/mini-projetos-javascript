@@ -1,0 +1,9 @@
+$background-body: #212226;
+$background-color-card: #2F3034;
+$primary-font-color: linear-gradient(147deg, #FF2525 0%, #FFE53B 74%);;
+
+@mixin mobile {
+  @media (max-width: 600px) {
+    @content;
+  }
+}
