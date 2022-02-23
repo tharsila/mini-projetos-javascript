@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #212226;
+}
+body header {
+  margin-bottom: 2rem;
+}
+body header h1 {
+  text-align: center;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 4rem;
+  background: linear-gradient(147deg, #FF2525 0%, #FFE53B 74%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+body main {
+  background: #2F3034;
+  max-width: 550px;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+body main .content {
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+body main .content p {
+  color: white;
+  margin: 2.2rem 0;
+}
+body main .content button {
+  background: linear-gradient(147deg, #FF2525 0%, #FFE53B 74%);
+  height: 45px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-radius: 10px;
+  margin-bottom: 1.8rem;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+body main .content button:hover {
+  border: 1px solid white;
+}
+
+/*# sourceMappingURL=style.css.map */
