@@ -1,12 +1,12 @@
 'use strict'
 
 const images = [
-  {'id': '1', 'url': './img/imagem1.jpg'},
-  {'id': '2', 'url': './img/imagem2.jpg'},
-  {'id': '3', 'url': './img/imagem3.jpg'},
-  {'id': '4', 'url': './img/imagem4.jpg'},
-  {'id': '5', 'url': './img/imagem5.jpg'},
-  {'id': '6', 'url': './img/imagem6.jpg'}
+  {'id': '1', 'url': './img/imagem1-min.jpg'},
+  {'id': '2', 'url': './img/imagem2-min.jpg'},
+  {'id': '3', 'url': './img/imagem3-min.jpg'},
+  {'id': '4', 'url': './img/imagem4-min.jpg'},
+  {'id': '5', 'url': './img/imagem5-min.jpg'},
+  {'id': '6', 'url': './img/imagem6-min.jpg'}
 ]
 
 const containerItems= document.querySelector('#container-items');
